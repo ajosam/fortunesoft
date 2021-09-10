@@ -1,0 +1,1 @@
+export const originals = `https://wookie.codesubmit.io/movies`;

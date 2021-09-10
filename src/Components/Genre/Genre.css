@@ -1,0 +1,37 @@
+.Genre{
+    margin-left: 20px;
+    color: #111;
+}
+
+.genre-list{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.genre-list::-webkit-scrollbar{
+    display: none;
+}
+
+.genre-action{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.genre-action::-webkit-scrollbar{
+    display: none;
+}
+
+
+.smallPoster{
+    max-height: 170px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.smallPoster:hover{
+    transform: scale(1.1);
+}
